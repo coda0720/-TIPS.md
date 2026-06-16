@@ -1,3 +1,17 @@
+# DPIとPPIの違い
+
+**DPI**と**PPI**は似ていますが、厳密には別物です。
+
+| 用語 | 意味 | 使う場面 |
+| --- | --- | --- |
+| **PPI** | **Pixels Per Inch** / 1インチあたりのピクセル数 | 画像データ・画面・Photoshop・Illustrator上の解像度 |
+| **DPI** | **Dots Per Inch** / 1インチあたりのインクの点の数 | プリンター・印刷機の出力性能 |
+
+## 簡単に言うと
+
+**PPI = 画像そのものの細かさ**  
+**DPI = プリンターがどれだけ細かくインクを打てるか**
+
 # 印刷用画像のDPI・PX計算方法とIllustratorでの確認方法
 
 印刷用データでは、画像の画質を判断するときに **DPI** と **PX（ピクセル数）** を確認します。
@@ -456,7 +470,7 @@ IllustratorやPhotoshopでは、画像解像度を **PPI** と表示すること
 
 ---
 
-# 15. Illustratorで特に見るべきなのは「実効PPI」
+<h1 align="center">Illustratorで特に見るべきなのは「実効PPI」</h1>
 
 Illustratorで画像を配置した場合、重要なのは **実効PPI** です。
 
